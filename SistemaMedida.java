@@ -1,7 +1,7 @@
 public class SistemaMedida {
     public static void main(String[] args) {
 
-        String sigla = "A";
+        String sigla = "P";
 
         switch ( sigla ){
             case "P":{

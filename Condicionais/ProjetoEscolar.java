@@ -1,3 +1,5 @@
+package Condicionais;
+
 public class ProjetoEscolar {
     public static void main(String[] args) {
 

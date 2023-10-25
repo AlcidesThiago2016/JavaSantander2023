@@ -2,6 +2,7 @@ package StreamApi;
 
 import java.util.Arrays;
 import java.util.List;
+import java.util.Optional;
 import java.util.function.BinaryOperator;
 
 public class BinaryOperatorExample {
@@ -14,5 +15,9 @@ public class BinaryOperatorExample {
                 .reduce(0, Integer::sum);
 
         System.out.println("A soma dos números é: " + resultado);
+
+        Optional<String> optional = Optional.ofNullable(null);
+        String result = optional.orElse("Default");
+        System.out.println(result);
     }
 }
